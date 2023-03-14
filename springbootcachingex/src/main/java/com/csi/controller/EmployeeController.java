@@ -66,4 +66,8 @@ public class EmployeeController {
         return ResponseEntity.ok("All Data Deleted Successfully");
     }
 
+    @GetMapping("/welcome")
+    public ResponseEntity<String> sayWelcome(){
+        return ResponseEntity.ok("WELCOME TO FINTECH CSI");
+    }
 }
